@@ -1,0 +1,18 @@
+sentence  C      L      V      N      E     (differences to C)
+300     0.943  -0.012  -0.019  -0.061  -0.010
+303     0.927  -0.138  -0.022  -0.048  -0.004
+310     0.932  +0.002  -0.061  -0.056  -0.065
+330     0.908  -0.120  -0.068  -0.078  -0.030
+350     0.921  -0.082  -0.077  -0.076  -0.033
+360     0.874  -0.181  -0.078  -0.083  +0.000
+
+mean             -0.088  -0.054  -0.067  -0.023
+
+real outputs
+360 Gemma wait-1   0.725  Finally gives there is still many small cats (including those roaming around freely), which are much smaller prey animals such as insects, rodents, lizards, and birds.
+360 Hy-MT2 wait-1  0.763  Finally, there is also many small cats (including free-roaming house cats) that are much smaller prey, such as insects, hedgehogs, lizards, and birds.
+370 Gemma wait-1   0.800  Scientists think, that ocelots are animals to eat (prey) with their sense of smell to follow and track. They then sniff where they have been on the ground.
+370 Gemma LA s3    0.814  Scientists think that otters pursue and track prey with their sense of smell. They then sniff where they have been on the ground.
+370 Hy-MT2 wait-1  0.796  Scientists think, Ozelotes are animals that eat (prey) with their sense of smell and find it. They sniff out where it is on the ground.
+300 Hy-MT2 wait-1  0.880  Die Kommission was Martellys response to the widespread regime-critical protests that took place in October.
+304 Gemma wait-1   0.693  Last week there was the announcement by the METI that it is from Apple over 34 further overheating incidents that the company as "not serious" described.

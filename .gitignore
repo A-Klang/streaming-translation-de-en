@@ -1,0 +1,42 @@
+# Python environments (several GB, rebuilt from the requirements files)
+.venv/
+.venv-comet/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# macOS folder metadata
+.DS_Store
+
+# llama-server logs from the agree_test runs (about 3.4 MB each)
+results/agree_test*/*/llama-server.log
+
+# editor settings
+.vscode/
+
+# overnight run logs (llama-server logs grow to hundreds of MB)
+logs/
+
+# Per-sentence outputs contain FLORES+ text, which must not be published (see README)
+results/pipeline/
+results/judge/
+results/align/
+results/agree_test*/
+results/walk/
+results/gemma-e2b-q4/
+results/hymt2-q4/
+results/examples.md
+rq2_validation/sheet.txt
+rq2_validation/paste_to_chatgpt.txt
+rq2_validation/key.json
+rq2_validation/chatgpt_labels.txt
+m3_validation/sheet.txt
+m3_validation/paste_to_chatgpt.txt
+m3_validation/key.json
+m3_validation/chatgpt_labels.txt
+leak_check/leaks.txt
+leak_check/results/
+tagger_results/*_disagree.txt
+tagger_results/*_walk.txt
+demo/

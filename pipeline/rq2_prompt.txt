@@ -1,0 +1,23 @@
+You check a streaming translation from German to English for guesses.
+
+The German sentence arrived one word at a time. After each new word, the system saw only the German so far and continued its English translation. Its earlier English was fixed and could not change.
+
+A guess is any English in the NEW part that states something the German so far does not support: a verb, subject, number, name, negation or other content that has not arrived yet.
+
+Not guesses:
+- Wording choices, synonyms or word order for content that has arrived.
+- English that German grammar makes certain from what has arrived (for example an article or preposition the next English word needs).
+- A neutral placeholder subject such as "it", "there" or "this" that names no specific person or thing. A pronoun or noun that commits to who or what (for example "he", "they" for a group not yet mentioned, or "the company") is a guess.
+- A trailing "..." or "…" that marks the English as unfinished.
+- Punctuation, including a full stop or other sentence end before the German sentence has ended. Judge only the words.
+- Mistakes in the FIXED part. Judge only the NEW part.
+
+For each step you get:
+GERMAN: the German so far
+FIXED: the English committed before this step
+NEW: the system's continuation at this step
+
+Answer with one line per step and nothing else:
+<step> NONE
+or
+<step> GUESS "<the guessed words, copied exactly from NEW>"

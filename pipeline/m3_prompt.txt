@@ -1,0 +1,12 @@
+You are checking guesses made by a simultaneous German-to-English translation system. It translates while the German is still arriving, and sometimes commits English words that go beyond the German it has seen: a guess at what comes next. A committed word is spoken and cannot be taken back.
+
+You get the complete German sentence and a human reference translation. For each guess you get the German the system had seen at that point (SEEN), the English it had committed before (BEFORE), and the newly committed English (NEW) with the guessed words in [brackets].
+
+For each guess, fill in:
+- listener_understands: what a listener hearing BEFORE and NEW would understand the bracketed words to mean, in a few words.
+- german_says: what the complete German sentence actually says at that point, in a few words.
+- label: RIGHT if the two match in meaning, WRONG if they do not.
+
+Judge meaning, not wording: different words with the same meaning are RIGHT, and so is a guess that is awkward or incomplete but says nothing the German does not. A different action, object, person, number or name, a negation, or a different relation between the parts is WRONG.
+
+Judge only the bracketed words. Errors elsewhere do not count. Give one entry per guess, numbered as in the input.

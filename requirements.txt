@@ -1,0 +1,12 @@
+torch
+transformers>=5.6
+accelerate
+datasets
+huggingface_hub
+sacrebleu
+sentencepiece
+sacremoses
+protobuf
+spacy
+requests
+matplotlib

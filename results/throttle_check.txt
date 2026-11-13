@@ -1,0 +1,42 @@
+Thermal throttling check: compute per German word in the first and last 100 sentences
+of each report run (same sentences in every run, so the content is the same per position).
+A fanless M1 Air that throttles would show the later sentences getting slower.
+run                           first 100   last 100  change
+gemma-e2b-q4_grammar-d0            69ms       68ms     -0%
+gemma-e2b-q4_grammar-d1            66ms       67ms     +1%
+gemma-e2b-q4_grammar-d2            66ms       66ms     +0%
+gemma-e2b-q4_la-s1                264ms      255ms     -3%
+gemma-e2b-q4_la-s1-verb           271ms      276ms     +2%
+gemma-e2b-q4_la-s2                186ms      180ms     -3%
+gemma-e2b-q4_la-s2-verb           189ms      193ms     +2%
+gemma-e2b-q4_la-s3                163ms      156ms     -5%
+gemma-e2b-q4_la-s3-verb           162ms      156ms     -4%
+gemma-e2b-q4_waitk1               216ms      241ms    +12%
+gemma-e2b-q4_waitk3               276ms      280ms     +2%
+gemma-e2b-q4_waitk5               311ms      303ms     -2%
+gemma-e2b-q4_waitk999              57ms       53ms     -6%
+hymt2-q4_grammar-d0                50ms       51ms     +3%
+hymt2-q4_grammar-d1                47ms       48ms     +3%
+hymt2-q4_grammar-d2                47ms       48ms     +3%
+hymt2-q4_la-s1                    203ms      208ms     +3%
+hymt2-q4_la-s1-verb               221ms      226ms     +2%
+hymt2-q4_la-s2                    141ms      144ms     +2%
+hymt2-q4_la-s2-verb               146ms      151ms     +4%
+hymt2-q4_la-s3                    119ms      122ms     +2%
+hymt2-q4_la-s3-verb               120ms      125ms     +4%
+hymt2-q4_waitk1                   170ms      194ms    +14%
+hymt2-q4_waitk3                   209ms      214ms     +2%
+hymt2-q4_waitk5                   218ms      222ms     +2%
+hymt2-q4_waitk999                  37ms       45ms    +22%
+
+Decode time per output token, per 100 sentences (removes the content):
+  hymt2-q4_waitk1      19.0 19.5 19.5 19.3 19.8 19.9 20.1 20.4   (+7%, first run of its night)
+  gemma-e2b-q4_waitk1  25.7 26.8 26.4 25.9 28.3 27.7 28.2 29.7   (+16%, first run of its night)
+  hymt2-q4_waitk999    23.2 24.2 23.9 24.9 24.2 26.2 27.9 27.9   (+20%, a separate daytime run)
+  hymt2-q4_la-s3       23.8 24.0 23.9 23.8 24.6 23.9 24.0 23.8   (flat, mid-night)
+
+Reading: mild slowdown while the fanless M1 Air warms up during the first run of a session
+(about 7 to 20% in decode speed); runs started on an already warm machine are flat (within
+about ±5%). The compute figures of wait-1 and the full-sentence baselines are therefore a few
+percent high compared with a warm steady state. Not large enough to change any comparison
+(the gap between the arms is 25 to 35%).

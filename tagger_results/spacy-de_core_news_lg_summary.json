@@ -1,0 +1,77 @@
+{
+  "backend": "spacy-de_core_news_lg",
+  "sentences": 100,
+  "prefixes": 2342,
+  "sec_total": 2.7,
+  "ms_per_prefix": 1.1,
+  "tag_agree_arrival": 0.913,
+  "tag_agree_all_tokens": 0.993,
+  "misaligned_tokens": 0,
+  "events": {
+    "SUB_OPEN": {
+      "ref": 77,
+      "pred": 105,
+      "precision": 0.705,
+      "recall": 0.961
+    },
+    "FIN_MAIN": {
+      "ref": 99,
+      "pred": 100,
+      "precision": 0.99,
+      "recall": 1.0
+    },
+    "FIN_SUB": {
+      "ref": 72,
+      "pred": 76,
+      "precision": 0.934,
+      "recall": 0.986
+    },
+    "FIN": {
+      "ref": 52,
+      "pred": 54,
+      "precision": 0.944,
+      "recall": 0.981
+    },
+    "PART": {
+      "ref": 69,
+      "pred": 66,
+      "precision": 0.97,
+      "recall": 0.928
+    },
+    "PARTICLE": {
+      "ref": 16,
+      "pred": 86,
+      "precision": 0.186,
+      "recall": 1.0
+    },
+    "INF": {
+      "ref": 60,
+      "pred": 59,
+      "precision": 0.966,
+      "recall": 0.95
+    }
+  },
+  "event_disagreements": 118,
+  "first_word_NN": {
+    "full NN, prefix NN": 13,
+    "full not NN, prefix NN": 0,
+    "full NN, prefix not NN": 1
+  },
+  "top_tag_changes_full_to_prefix": [
+    "APPR -> PTKVZ: 48",
+    "ART -> PRELS: 26",
+    "PTKZU -> PTKVZ: 21",
+    "PIAT -> PIS: 12",
+    "ADJA -> PIS: 9",
+    "ADJA -> NN: 8",
+    "ART -> PDS: 8",
+    "NN -> NE: 5",
+    "APPR -> KOKOM: 5",
+    "APPR -> KOUS: 5",
+    "NE -> FM: 5",
+    "VVPP -> VVFIN: 4",
+    "ART -> PIS: 4",
+    "VVINF -> VVFIN: 3",
+    "PDS -> ART: 2"
+  ]
+}

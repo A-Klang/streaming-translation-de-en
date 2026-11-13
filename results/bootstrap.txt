@@ -1,0 +1,236 @@
+Paired bootstrap, 10000 rounds, seed 2026: 712 sentences for COMET and LAAL, 100 for committed guesses per 100 German words
+
+95% intervals per run
+  hymt2-q4 waitk1            comet 0.820 [0.814, 0.825]   laal 2.26 [2.19, 2.32]   raw 23.7 [21.1, 26.2]   guesses 7.87 [6.54, 9.30]   wrong 3.54 [2.59, 4.66]
+  hymt2-q4 waitk3            comet 0.867 [0.863, 0.871]   laal 3.81 [3.75, 3.87]   raw 29.2 [26.4, 32.1]   guesses 5.87 [4.57, 7.29]   wrong 2.28 [1.58, 3.06]
+  hymt2-q4 waitk5            comet 0.878 [0.875, 0.882]   laal 5.55 [5.49, 5.61]   raw 30.8 [27.5, 34.1]   guesses 3.12 [2.32, 3.97]   wrong 1.26 [0.74, 1.84]
+  hymt2-q4 la-s1             comet 0.860 [0.855, 0.864]   laal 2.63 [2.56, 2.69]   raw 28.0 [25.9, 30.2]   guesses 5.64 [4.71, 6.59]   wrong 1.82 [1.27, 2.41]
+  hymt2-q4 la-s2             comet 0.878 [0.875, 0.881]   laal 4.49 [4.41, 4.57]   raw 32.0 [28.9, 35.3]   guesses 2.28 [1.69, 2.93]   wrong 0.79 [0.41, 1.25]
+  hymt2-q4 la-s3             comet 0.884 [0.880, 0.887]   laal 6.30 [6.20, 6.40]   raw 38.0 [34.0, 42.1]   guesses 1.26 [0.84, 1.70]   wrong 0.28 [0.09, 0.51]
+  hymt2-q4 la-s1-verb        comet 0.867 [0.863, 0.871]   laal 3.24 [3.11, 3.40]   raw 33.8 [30.5, 37.1]   guesses 3.82 [3.02, 4.63]   wrong 1.44 [0.97, 1.96]
+  hymt2-q4 la-s2-verb        comet 0.881 [0.877, 0.884]   laal 5.00 [4.86, 5.16]   raw 34.7 [31.2, 38.4]   guesses 1.21 [0.76, 1.69]   wrong 0.33 [0.09, 0.62]
+  hymt2-q4 la-s3-verb        comet 0.884 [0.881, 0.887]   laal 6.68 [6.54, 6.85]   raw 38.2 [34.0, 42.4]   guesses 0.51 [0.24, 0.81]   wrong 0.09 [0.00, 0.24]
+  hymt2-q4 grammar-d0        comet 0.874 [0.870, 0.878]   laal 4.99 [4.81, 5.18]   raw 12.2 [8.2, 16.5]   guesses 1.35 [0.89, 1.84]   wrong 0.56 [0.28, 0.87]
+  hymt2-q4 grammar-d1        comet 0.877 [0.873, 0.880]   laal 6.29 [6.09, 6.49]   raw 8.5 [4.8, 12.3]   guesses 0.84 [0.47, 1.24]   wrong 0.37 [0.14, 0.63]
+  hymt2-q4 grammar-d2        comet 0.878 [0.874, 0.881]   laal 7.18 [6.99, 7.38]   raw 7.6 [4.1, 11.5]   guesses 0.75 [0.38, 1.14]   wrong 0.33 [0.10, 0.57]
+  hymt2-q4 waitk999          comet 0.888 [0.885, 0.891]   laal 21.50 [20.97, 22.05]
+  gemma-e2b-q4 waitk1        comet 0.836 [0.830, 0.842]   laal 1.90 [1.85, 1.96]   raw 7.6 [6.1, 9.3]   guesses 4.29 [3.37, 5.24]   wrong 1.68 [1.10, 2.29]
+  gemma-e2b-q4 waitk3        comet 0.866 [0.861, 0.870]   laal 3.56 [3.51, 3.62]   raw 12.1 [9.7, 14.5]   guesses 3.35 [2.55, 4.21]   wrong 0.88 [0.52, 1.28]
+  gemma-e2b-q4 waitk5        comet 0.878 [0.874, 0.882]   laal 5.44 [5.39, 5.50]   raw 14.8 [11.9, 17.8]   guesses 2.14 [1.45, 2.91]   wrong 0.47 [0.18, 0.81]
+  gemma-e2b-q4 la-s1         comet 0.859 [0.855, 0.864]   laal 2.33 [2.27, 2.39]   raw 9.9 [8.2, 11.8]   guesses 2.84 [2.16, 3.53]   wrong 0.84 [0.49, 1.21]
+  gemma-e2b-q4 la-s2         comet 0.877 [0.874, 0.881]   laal 4.10 [4.03, 4.18]   raw 13.3 [10.3, 16.4]   guesses 1.16 [0.74, 1.60]   wrong 0.37 [0.14, 0.63]
+  gemma-e2b-q4 la-s3         comet 0.883 [0.880, 0.887]   laal 5.87 [5.78, 5.97]   raw 16.0 [12.7, 19.3]   guesses 0.93 [0.58, 1.30]   wrong 0.33 [0.10, 0.56]
+  gemma-e2b-q4 la-s1-verb    comet 0.864 [0.860, 0.869]   laal 2.79 [2.66, 2.95]   raw 12.2 [9.8, 14.7]   guesses 1.96 [1.34, 2.62]   wrong 0.56 [0.28, 0.86]
+  gemma-e2b-q4 la-s2-verb    comet 0.879 [0.876, 0.883]   laal 4.51 [4.38, 4.66]   raw 15.4 [12.4, 18.5]   guesses 0.70 [0.37, 1.06]   wrong 0.28 [0.09, 0.51]
+  gemma-e2b-q4 la-s3-verb    comet 0.884 [0.881, 0.888]   laal 6.21 [6.06, 6.37]   raw 15.8 [12.4, 19.3]   guesses 0.23 [0.05, 0.45]   wrong 0.05 [0.00, 0.14]
+  gemma-e2b-q4 grammar-d0    comet 0.880 [0.877, 0.884]   laal 5.07 [4.90, 5.26]   raw 5.0 [2.4, 8.2]   guesses 0.56 [0.27, 0.90]   wrong 0.19 [0.00, 0.43]
+  gemma-e2b-q4 grammar-d1    comet 0.882 [0.879, 0.886]   laal 6.38 [6.18, 6.58]   raw 3.8 [1.5, 6.4]   guesses 0.37 [0.14, 0.64]   wrong 0.09 [0.00, 0.24]
+  gemma-e2b-q4 grammar-d2    comet 0.883 [0.879, 0.886]   laal 7.27 [7.09, 7.47]   raw 4.8 [2.2, 7.7]   guesses 0.47 [0.23, 0.75]   wrong 0.14 [0.00, 0.32]
+  gemma-e2b-q4 waitk999      comet 0.892 [0.889, 0.895]   laal 21.50 [20.97, 22.05]
+
+Gemma minus Hy-MT2, same setting
+  waitk1                             comet    +0.0165  [+0.0112, +0.0217]  p <0.0001
+  waitk1                             laal     -0.35  [-0.41, -0.30]  p <0.0001
+  waitk1                             raw      -16.07  [-18.73, -13.36]  p <0.0001
+  waitk1                             guesses  -3.59  [-5.15, -2.13]  p <0.0001
+  waitk1                             wrong    -1.86  [-3.01, -0.85]  p <0.0001
+  waitk3                             comet    -0.0015  [-0.0047, +0.0016]  p 0.3302
+  waitk3                             laal     -0.25  [-0.30, -0.21]  p <0.0001
+  waitk3                             raw      -17.16  [-20.43, -14.04]  p <0.0001
+  waitk3                             guesses  -2.52  [-3.81, -1.32]  p <0.0001
+  waitk3                             wrong    -1.40  [-2.18, -0.66]  p <0.0001
+  waitk5                             comet    -0.0001  [-0.0027, +0.0025]  p 0.9322
+  waitk5                             laal     -0.11  [-0.15, -0.07]  p <0.0001
+  waitk5                             raw      -15.97  [-19.93, -12.12]  p <0.0001
+  waitk5                             guesses  -0.98  [-1.89, -0.09]  p 0.0386
+  waitk5                             wrong    -0.79  [-1.36, -0.28]  p 0.0024
+  la-s1                              comet    -0.0004  [-0.0036, +0.0029]  p 0.8148
+  la-s1                              laal     -0.30  [-0.36, -0.24]  p <0.0001
+  la-s1                              raw      -18.12  [-20.79, -15.51]  p <0.0001
+  la-s1                              guesses  -2.79  [-3.80, -1.83]  p <0.0001
+  la-s1                              wrong    -0.98  [-1.60, -0.40]  p 0.0008
+  la-s2                              comet    -0.0005  [-0.0031, +0.0020]  p 0.7030
+  la-s2                              laal     -0.39  [-0.46, -0.31]  p <0.0001
+  la-s2                              raw      -18.72  [-22.68, -14.95]  p <0.0001
+  la-s2                              guesses  -1.12  [-1.87, -0.40]  p 0.0030
+  la-s2                              wrong    -0.42  [-0.93, +0.05]  p 0.0898
+  la-s3                              comet    -0.0003  [-0.0026, +0.0019]  p 0.7748
+  la-s3                              laal     -0.43  [-0.54, -0.32]  p <0.0001
+  la-s3                              raw      -22.09  [-27.04, -17.20]  p <0.0001
+  la-s3                              guesses  -0.33  [-0.78, +0.14]  p 0.1894
+  la-s3                              wrong    +0.05  [-0.23, +0.32]  p 0.8686
+  la-s1-verb                         comet    -0.0030  [-0.0064, +0.0003]  p 0.0734
+  la-s1-verb                         laal     -0.45  [-0.53, -0.37]  p <0.0001
+  la-s1-verb                         raw      -21.59  [-25.40, -18.02]  p <0.0001
+  la-s1-verb                         guesses  -1.86  [-2.71, -1.05]  p <0.0001
+  la-s1-verb                         wrong    -0.88  [-1.41, -0.39]  p 0.0002
+  la-s2-verb                         comet    -0.0011  [-0.0036, +0.0014]  p 0.4098
+  la-s2-verb                         laal     -0.49  [-0.58, -0.40]  p <0.0001
+  la-s2-verb                         raw      -19.32  [-23.46, -15.44]  p <0.0001
+  la-s2-verb                         guesses  -0.51  [-1.09, +0.05]  p 0.0922
+  la-s2-verb                         wrong    -0.05  [-0.38, +0.28]  p 0.8878
+  la-s3-verb                         comet    -0.0002  [-0.0025, +0.0021]  p 0.8644
+  la-s3-verb                         laal     -0.47  [-0.60, -0.36]  p <0.0001
+  la-s3-verb                         raw      -22.39  [-27.42, -17.58]  p <0.0001
+  la-s3-verb                         guesses  -0.28  [-0.59, +0.00]  p 0.0990
+  la-s3-verb                         wrong    -0.05  [-0.20, +0.09]  p 0.7928
+  grammar-d0                         comet    +0.0061  [+0.0035, +0.0087]  p <0.0001
+  grammar-d0                         laal     +0.09  [+0.04, +0.14]  p 0.0012
+  grammar-d0                         raw      -7.14  [-11.35, -3.15]  p 0.0010
+  grammar-d0                         guesses  -0.79  [-1.27, -0.34]  p 0.0010
+  grammar-d0                         wrong    -0.37  [-0.73, +0.00]  p 0.0628
+  grammar-d1                         comet    +0.0053  [+0.0029, +0.0078]  p <0.0001
+  grammar-d1                         laal     +0.09  [+0.04, +0.14]  p 0.0010
+  grammar-d1                         raw      -4.69  [-8.49, -1.06]  p 0.0136
+  grammar-d1                         guesses  -0.47  [-0.85, -0.10]  p 0.0136
+  grammar-d1                         wrong    -0.28  [-0.54, -0.05]  p 0.0340
+  grammar-d2                         comet    +0.0051  [+0.0028, +0.0076]  p <0.0001
+  grammar-d2                         laal     +0.09  [+0.04, +0.14]  p 0.0010
+  grammar-d2                         raw      -2.86  [-7.21, +1.31]  p 0.2306
+  grammar-d2                         guesses  -0.28  [-0.72, +0.13]  p 0.2306
+  grammar-d2                         wrong    -0.19  [-0.46, +0.05]  p 0.2034
+  waitk999                           comet    +0.0038  [+0.0021, +0.0055]  p <0.0001
+  waitk999                           laal     +0.00  [+0.00, +0.00]  p 1.0000
+
+Gemma minus Hy-MT2, COMET at matched lag (LAAL in words)
+  wait-k           at 3 words   Hy-MT2 0.8423  Gemma 0.8556  delta +0.0133  [+0.0096, +0.0168]  p <0.0001
+  wait-k           at 4 words   Hy-MT2 0.8683  Gemma 0.8685  delta +0.0002  [-0.0027, +0.0030]  p 0.9092
+  wait-k           at 5 words   Hy-MT2 0.8747  Gemma 0.8752  delta +0.0005  [-0.0020, +0.0029]  p 0.7190
+  LA               at 3 words   Hy-MT2 0.8634  Gemma 0.8663  delta +0.0028  [+0.0000, +0.0057]  p 0.0460
+  LA               at 4 words   Hy-MT2 0.8732  Gemma 0.8764  delta +0.0032  [+0.0007, +0.0057]  p 0.0132
+  LA               at 5 words   Hy-MT2 0.8796  Gemma 0.8805  delta +0.0009  [-0.0014, +0.0030]  p 0.4506
+  LA + verb rule   at 4 words   Hy-MT2 0.8731  Gemma 0.8750  delta +0.0019  [-0.0005, +0.0044]  p 0.1238
+  LA + verb rule   at 5 words   Hy-MT2 0.8805  Gemma 0.8808  delta +0.0003  [-0.0019, +0.0028]  p 0.6914
+  LA + verb rule   at 6 words   Hy-MT2 0.8828  Gemma 0.8836  delta +0.0008  [-0.0014, +0.0029]  p 0.4780
+  Grammar          at 6 words   Hy-MT2 0.8763  Gemma 0.8816  delta +0.0053  [+0.0029, +0.0078]  p <0.0001
+  Grammar          at 7 words   Hy-MT2 0.8775  Gemma 0.8826  delta +0.0051  [+0.0027, +0.0075]  p <0.0001
+
+Verb rule on minus off, COMET at matched lag: is the rule better than waiting longer?
+  hymt2-q4         at 4 words   off 0.8732  on 0.8731  delta -0.0001  [-0.0016, +0.0011]  p 0.8690
+  hymt2-q4         at 5 words   off 0.8796  on 0.8805  delta +0.0009  [-0.0003, +0.0017]  p 0.1188
+  hymt2-q4         at 6 words   off 0.8827  on 0.8828  delta +0.0001  [-0.0005, +0.0006]  p 0.7048
+  gemma-e2b-q4     at 3 words   off 0.8663  on 0.8662  delta -0.0001  [-0.0016, +0.0012]  p 0.9260
+  gemma-e2b-q4     at 4 words   off 0.8764  on 0.8750  delta -0.0014  [-0.0029, -0.0002]  p 0.0166
+  gemma-e2b-q4     at 5 words   off 0.8805  on 0.8808  delta +0.0004  [-0.0002, +0.0010]  p 0.2068
+
+Verb rule on minus off, committed guesses per 100 German words at matched lag (LAAL on the RQ2 sentences)
+  hymt2-q4         at 4 words   off 3.08  on 2.71  delta -0.36  [-1.02, +0.30]  p 0.3004
+  hymt2-q4         at 5 words   off 1.97  on 1.18  delta -0.79  [-1.27, -0.26]  p 0.0036
+  hymt2-q4         at 6 words   off 1.43  on 0.78  delta -0.65  [-1.00, -0.30]  p 0.0002
+  gemma-e2b-q4     at 3 words   off 2.21  on 1.76  delta -0.45  [-0.91, -0.03]  p 0.0360
+  gemma-e2b-q4     at 4 words   off 1.31  on 1.08  delta -0.24  [-0.65, +0.16]  p 0.2422
+  gemma-e2b-q4     at 5 words   off 1.05  on 0.58  delta -0.48  [-0.81, -0.17]  p 0.0020
+
+Gemma minus Hy-MT2, committed guesses per 100 German words at matched lag (LAAL on the RQ2 sentences)
+  wait-k           at 3 words   Hy-MT2 6.86  Gemma 3.62  delta -3.23  [-4.38, -2.14]  p <0.0001
+  wait-k           at 4 words   Hy-MT2 5.47  Gemma 3.02  delta -2.44  [-3.59, -1.38]  p <0.0001
+  wait-k           at 5 words   Hy-MT2 3.92  Gemma 2.38  delta -1.54  [-2.40, -0.70]  p 0.0002
+  LA               at 3 words   Hy-MT2 4.93  Gemma 2.21  delta -2.71  [-3.63, -1.84]  p <0.0001
+  LA               at 4 words   Hy-MT2 3.08  Gemma 1.31  delta -1.76  [-2.49, -1.04]  p <0.0001
+  LA               at 5 words   Hy-MT2 1.97  Gemma 1.05  delta -0.92  [-1.46, -0.41]  p 0.0002
+  LA + verb rule   at 4 words   Hy-MT2 2.71  Gemma 1.08  delta -1.64  [-2.40, -0.94]  p <0.0001
+  LA + verb rule   at 5 words   Hy-MT2 1.18  Gemma 0.58  delta -0.61  [-1.19, -0.11]  p 0.0162
+  LA + verb rule   at 6 words   Hy-MT2 0.78  Gemma 0.31  delta -0.47  [-0.80, -0.16]  p 0.0022
+  Grammar          at 6 words   Hy-MT2 0.96  Gemma 0.44  delta -0.52  [-0.92, -0.16]  p 0.0050
+  Grammar          at 7 words   Hy-MT2 0.76  Gemma 0.43  delta -0.32  [-0.73, +0.05]  p 0.1032
+
+Verb rule on minus off, WRONG committed guesses per 100 German words at matched lag (RQ2 sentences)
+  hymt2-q4         at 4 words   off 1.03  on 0.97  delta -0.06  [-0.51, +0.35]  p 0.7880
+  hymt2-q4         at 5 words   off 0.64  on 0.32  delta -0.32  [-0.67, +0.05]  p 0.0920
+  hymt2-q4         at 6 words   off 0.36  on 0.18  delta -0.18  [-0.39, +0.00]  p 0.0550
+  gemma-e2b-q4     at 3 words   off 0.66  on 0.52  delta -0.15  [-0.36, +0.01]  p 0.0694
+  gemma-e2b-q4     at 4 words   off 0.41  on 0.36  delta -0.05  [-0.19, +0.05]  p 0.4266
+  gemma-e2b-q4     at 5 words   off 0.35  on 0.22  delta -0.13  [-0.27, -0.02]  p 0.0250
+
+Gemma minus Hy-MT2, WRONG committed guesses per 100 German words at matched lag (RQ2 sentences)
+  wait-k           at 3 words   Hy-MT2 2.90  Gemma 1.12  delta -1.79  [-2.55, -1.09]  p <0.0001
+  wait-k           at 4 words   Hy-MT2 2.13  Gemma 0.77  delta -1.36  [-2.07, -0.72]  p <0.0001
+  wait-k           at 5 words   Hy-MT2 1.56  Gemma 0.55  delta -1.01  [-1.52, -0.54]  p <0.0001
+  LA               at 3 words   Hy-MT2 1.60  Gemma 0.66  delta -0.94  [-1.47, -0.44]  p <0.0001
+  LA               at 4 words   Hy-MT2 1.03  Gemma 0.41  delta -0.62  [-1.08, -0.19]  p 0.0042
+  LA               at 5 words   Hy-MT2 0.64  Gemma 0.35  delta -0.29  [-0.66, +0.05]  p 0.0986
+  LA + verb rule   at 4 words   Hy-MT2 0.97  Gemma 0.36  delta -0.61  [-1.05, -0.23]  p 0.0012
+  LA + verb rule   at 5 words   Hy-MT2 0.32  Gemma 0.22  delta -0.10  [-0.43, +0.17]  p 0.4498
+  LA + verb rule   at 6 words   Hy-MT2 0.18  Gemma 0.08  delta -0.10  [-0.27, +0.06]  p 0.2224
+  Grammar          at 6 words   Hy-MT2 0.42  Gemma 0.13  delta -0.29  [-0.53, -0.05]  p 0.0140
+  Grammar          at 7 words   Hy-MT2 0.33  Gemma 0.12  delta -0.21  [-0.47, +0.03]  p 0.0846
+
+Verb rule on minus off
+  hymt2-q4 s1                        comet    +0.0076  [+0.0059, +0.0095]  p <0.0001
+  hymt2-q4 s1                        laal     +0.61  [+0.49, +0.77]  p <0.0001
+  hymt2-q4 s1                        raw      +5.76  [+3.00, +8.63]  p <0.0001
+  hymt2-q4 s1                        guesses  -1.82  [-2.77, -0.88]  p <0.0001
+  hymt2-q4 s1                        wrong    -0.37  [-0.91, +0.14]  p 0.1884
+  hymt2-q4 s2                        comet    +0.0025  [+0.0017, +0.0034]  p <0.0001
+  hymt2-q4 s2                        laal     +0.51  [+0.39, +0.66]  p <0.0001
+  hymt2-q4 s2                        raw      +2.70  [+0.20, +5.37]  p 0.0400
+  hymt2-q4 s2                        guesses  -1.07  [-1.74, -0.45]  p 0.0008
+  hymt2-q4 s2                        wrong    -0.47  [-0.95, +0.00]  p 0.0566
+  hymt2-q4 s3                        comet    +0.0007  [+0.0003, +0.0012]  p 0.0004
+  hymt2-q4 s3                        laal     +0.38  [+0.28, +0.52]  p <0.0001
+  hymt2-q4 s3                        raw      +0.15  [-2.55, +2.81]  p 0.9592
+  hymt2-q4 s3                        guesses  -0.75  [-1.15, -0.35]  p 0.0002
+  hymt2-q4 s3                        wrong    -0.19  [-0.42, +0.00]  p 0.1286
+  gemma-e2b-q4 s1                    comet    +0.0049  [+0.0037, +0.0062]  p <0.0001
+  gemma-e2b-q4 s1                    laal     +0.47  [+0.35, +0.62]  p <0.0001
+  gemma-e2b-q4 s1                    raw      +2.30  [+1.01, +3.67]  p <0.0001
+  gemma-e2b-q4 s1                    guesses  -0.88  [-1.47, -0.36]  p 0.0014
+  gemma-e2b-q4 s1                    wrong    -0.28  [-0.56, -0.05]  p 0.0122
+  gemma-e2b-q4 s2                    comet    +0.0020  [+0.0013, +0.0027]  p <0.0001
+  gemma-e2b-q4 s2                    laal     +0.40  [+0.29, +0.55]  p <0.0001
+  gemma-e2b-q4 s2                    raw      +2.10  [-0.19, +4.40]  p 0.0728
+  gemma-e2b-q4 s2                    guesses  -0.47  [-0.92, -0.04]  p 0.0486
+  gemma-e2b-q4 s2                    wrong    -0.09  [-0.23, +0.00]  p 0.2678
+  gemma-e2b-q4 s3                    comet    +0.0009  [+0.0005, +0.0013]  p <0.0001
+  gemma-e2b-q4 s3                    laal     +0.34  [+0.22, +0.48]  p <0.0001
+  gemma-e2b-q4 s3                    raw      -0.15  [-2.45, +2.16]  p 0.9440
+  gemma-e2b-q4 s3                    guesses  -0.70  [-1.06, -0.36]  p <0.0001
+  gemma-e2b-q4 s3                    wrong    -0.28  [-0.50, -0.09]  p 0.0056
+
+Grammar, one more word of delay
+  hymt2-q4 d0 -> d1                  comet    +0.0028  [+0.0017, +0.0040]  p <0.0001
+  hymt2-q4 d0 -> d1                  laal     +1.30  [+1.20, +1.42]  p <0.0001
+  hymt2-q4 d0 -> d1                  raw      -3.73  [-6.72, -0.96]  p 0.0074
+  hymt2-q4 d0 -> d1                  guesses  -0.51  [-0.84, -0.22]  p 0.0004
+  hymt2-q4 d0 -> d1                  wrong    -0.19  [-0.48, +0.09]  p 0.2486
+  hymt2-q4 d1 -> d2                  comet    +0.0007  [+0.0003, +0.0012]  p <0.0001
+  hymt2-q4 d1 -> d2                  laal     +0.90  [+0.86, +0.94]  p <0.0001
+  hymt2-q4 d1 -> d2                  raw      -0.83  [-3.13, +1.44]  p 0.5262
+  hymt2-q4 d1 -> d2                  guesses  -0.09  [-0.32, +0.14]  p 0.5262
+  hymt2-q4 d1 -> d2                  wrong    -0.05  [-0.24, +0.15]  p 0.8184
+  gemma-e2b-q4 d0 -> d1              comet    +0.0020  [+0.0012, +0.0029]  p <0.0001
+  gemma-e2b-q4 d0 -> d1              laal     +1.30  [+1.20, +1.41]  p <0.0001
+  gemma-e2b-q4 d0 -> d1              raw      -1.29  [-4.20, +1.27]  p 0.3404
+  gemma-e2b-q4 d0 -> d1              guesses  -0.19  [-0.50, +0.09]  p 0.2464
+  gemma-e2b-q4 d0 -> d1              wrong    -0.09  [-0.29, +0.00]  p 0.7482
+  gemma-e2b-q4 d1 -> d2              comet    +0.0006  [+0.0001, +0.0011]  p 0.0072
+  gemma-e2b-q4 d1 -> d2              laal     +0.89  [+0.86, +0.94]  p <0.0001
+  gemma-e2b-q4 d1 -> d2              raw      +1.01  [-1.29, +3.30]  p 0.3116
+  gemma-e2b-q4 d1 -> d2              guesses  +0.09  [-0.14, +0.32]  p 0.5332
+  gemma-e2b-q4 d1 -> d2              wrong    +0.05  [+0.00, +0.15]  p 0.7280
+
+Streaming minus full sentence, COMET
+  hymt2-q4 waitk1                    comet    -0.0683  [-0.0729, -0.0639]  p <0.0001
+  hymt2-q4 waitk3                    comet    -0.0208  [-0.0234, -0.0184]  p <0.0001
+  hymt2-q4 waitk5                    comet    -0.0097  [-0.0113, -0.0081]  p <0.0001
+  hymt2-q4 la-s1                     comet    -0.0282  [-0.0313, -0.0252]  p <0.0001
+  hymt2-q4 la-s2                     comet    -0.0100  [-0.0117, -0.0083]  p <0.0001
+  hymt2-q4 la-s3                     comet    -0.0043  [-0.0056, -0.0031]  p <0.0001
+  hymt2-q4 la-s1-verb                comet    -0.0206  [-0.0232, -0.0181]  p <0.0001
+  hymt2-q4 la-s2-verb                comet    -0.0074  [-0.0090, -0.0059]  p <0.0001
+  hymt2-q4 la-s3-verb                comet    -0.0036  [-0.0048, -0.0024]  p <0.0001
+  hymt2-q4 grammar-d0                comet    -0.0139  [-0.0161, -0.0118]  p <0.0001
+  hymt2-q4 grammar-d1                comet    -0.0110  [-0.0129, -0.0092]  p <0.0001
+  hymt2-q4 grammar-d2                comet    -0.0103  [-0.0122, -0.0085]  p <0.0001
+  gemma-e2b-q4 waitk1                comet    -0.0556  [-0.0601, -0.0513]  p <0.0001
+  gemma-e2b-q4 waitk3                comet    -0.0262  [-0.0294, -0.0231]  p <0.0001
+  gemma-e2b-q4 waitk5                comet    -0.0136  [-0.0160, -0.0114]  p <0.0001
+  gemma-e2b-q4 la-s1                 comet    -0.0324  [-0.0357, -0.0291]  p <0.0001
+  gemma-e2b-q4 la-s2                 comet    -0.0143  [-0.0165, -0.0122]  p <0.0001
+  gemma-e2b-q4 la-s3                 comet    -0.0084  [-0.0102, -0.0068]  p <0.0001
+  gemma-e2b-q4 la-s1-verb            comet    -0.0274  [-0.0306, -0.0243]  p <0.0001
+  gemma-e2b-q4 la-s2-verb            comet    -0.0123  [-0.0144, -0.0103]  p <0.0001
+  gemma-e2b-q4 la-s3-verb            comet    -0.0076  [-0.0093, -0.0060]  p <0.0001
+  gemma-e2b-q4 grammar-d0            comet    -0.0116  [-0.0135, -0.0098]  p <0.0001
+  gemma-e2b-q4 grammar-d1            comet    -0.0096  [-0.0113, -0.0080]  p <0.0001
+  gemma-e2b-q4 grammar-d2            comet    -0.0090  [-0.0107, -0.0074]  p <0.0001
